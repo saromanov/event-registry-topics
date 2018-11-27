@@ -1,0 +1,125 @@
+{"articles": {"pages": 538, "results": [{
+            "url":"http://www.chicagotribune.com/suburbs/aurora-beacon-news/news/ct-abn-patient-sues-delnor-kane-county-st-0824-20170824-story.html",
+            "uri":"714922200",
+            "id":"5134791",
+            "time":"23:59:00",
+            "eventUri":"None",
+            "sim":0,
+            "title":"Lawsuit: Hostage situation at Delnor hospital gave patient PTSD",
+            "categories":[  
+               {  
+                  "wgt":12,
+                  "uri":"dmoz/Society/Law",
+                  "id":56,
+                  "label":"dmoz/Society/Law"
+               },
+               {  
+                  "wgt":12,
+                  "uri":"dmoz/Society/Law/Legal_Information",
+                  "id":180,
+                  "label":"dmoz/Society/Law/Legal Information"
+               },
+               {  
+                  "wgt":11,
+                  "uri":"dmoz/Health/Medicine/Facilities",
+                  "id":540,
+                  "label":"dmoz/Health/Medicine/Facilities"
+               }
+            ],
+            "lang":"eng",
+            "wgt":1,
+            "source":{  
+               "title":"Chicago Tribune",
+               "uri":"chicagotribune.com",
+               "id":"1250"
+            },
+            "body":"A woman who says she was a patient at Northwestern Medicine Delnor Hospital when a engler said Loomis is still on paid administrative leave from the county.\n\nhleone@tribpub.com\n\nTwitter @hannahmleone",
+            "date":"2017-08-24",
+            "isDuplicate":"False",
+            "dateTime":"2017-08-24T23:59:00Z"
+         },
+         {  
+            "url":"http://www.capitalgazette.com/sports/navy_sports/ac-cs-navy-contingency-20170824-story.html",
+            "uri":"714922106",
+            "id":"5134769",
+            "time":"23:59:00",
+            "eventUri":"eng-3386221",
+            "sim":0.6823529601097107,
+            "title":"Navy has contingency plan in case offensive coordinator misses opener",
+            "categories":[  
+               {  
+                  "wgt":8,
+                  "uri":"dmoz/Health/Medicine",
+                  "id":182,
+                  "label":"dmoz/Health/Medicine"
+               },
+               {  
+                  "wgt":8,
+                  "uri":"dmoz/Health/Medicine/Medical_Specialties",
+                  "id":183,
+                  "label":"dmoz/Health/Medicine/Medical Specialties"
+               },
+               {  
+                  "wgt":8,
+                  "uri":"dmoz/Sports/Football",
+                  "id":199,
+                  "label":"dmoz/Sports/Football"
+               },
+               {  
+                  "wgt":8,
+                  "uri":"dmoz/Sports/Football/American",
+                  "id":200,
+                  "label":"dmoz/Sports/Football/American"
+               }
+            ],
+            "lang":"eng",
+            "wgt":1,
+            "source":{  
+               "title":"capitalgazette.com",
+               "uri":"capitalgazette.com",
+               "id":"2292"
+            },
+            "body":"Navy football has developed a contingency plan in case offensive coordinator Ivin Jasper must miss the season opener at Florida Atlantic.\n\nHead coach Ken Niumatalolo said running game coordinator Ashley Ingram would handle the play-calling in the event Jasper is absent next Friday at FAU Stadium in Boca Raton.\n\n            Ashley would go up and call the game.Niumatalolo told The Baltimore Sun Media Group following practice on Thursday afternoon",
+            "date":"2017-08-24",
+            "isDuplicate":"False",
+            "dateTime":"2017-08-24T23:59:00Z"
+         },
+         {  
+            "url":"http://www.wbiw.com/local/archive/2017/08/county-working-on-emergency-disaster-plan-for-animals-changing-animal-control-ordinance.php",
+            "uri":"714922003",
+            "id":"5134737",
+            "time":"23:58:00",
+            "eventUri":"None",
+            "sim":0,
+            "title":"County Working On Emergency Disaster Plan For Animals, Changing Animal Control Ordinance",
+            "categories":[  
+               {  
+                  "wgt":33,
+                  "uri":"dmoz/Arts/Animation",
+                  "id":22,
+                  "label":"dmoz/Arts/Animation"
+               },
+               {  
+                  "wgt":28,
+                  "uri":"dmoz/Society/Organizations/Animal_Welfare",
+                  "id":643,
+                  "label":"dmoz/Society/Organizations/Animal Welfare"
+               },
+               {  
+                  "wgt":28,
+                  "uri":"dmoz/Health/Animal",
+                  "id":805,
+                  "label":"dmoz/Health/Animal"
+               }
+            ],
+            "lang":"eng",
+            "wgt":1,
+            "source":{  
+               "title":"obituaries",
+               "uri":"wbiw.com",
+               "id":"8508"
+            },
+            "body":"(BEDFORD) - Emergency Management Director Valerie Luchauer presented the Lawrence County commissioners with a plan to provide rapid response in an event affecting the health, safety and welfare of animals in the county during a disaster or emergency disease outbreaks.\n\nThe Lawrence County Animal Disaster plan is for small and large animals, wildlife and exotic animals.\n\nThe concept is to give officials a plan when local jurisdiction resources are overwhelmed and when existing agreements may not provide an adequate response.\n\nMany groups have come together in the planning and drafting of this plan,says Luchauer.\n\nThe County Animal Health Officer - who will be the primary coordinating agent.\n\nSupporting Agencies include:\n\nAnimal Health Emergency Support Function - Mitigation Tasks\n\nIdentify critical farm/breeding facilities and animal sites that may be vulnerable to an attack, evaluate that vulnerability and determine what mitigative actions could be taken to prevent or reduce that vulnerability - County Extension Office, Emergency Management Agency, County Assessors Department, Local veterinarians, Indiana Department Of Environment Management and Sate Board of Animal Health.\n\nMonitor animal health and maintain an extensive surveillance system that allow for accurate and timely reporting information within the county - Local veterinarians, Animal producers and",
+            "date":"2017-08-24",
+            "isDuplicate":"False",
+            "dateTime":"2017-08-24T23:58:00Z"}], "page": 1, "totalResults": 16131, "count": 30}}

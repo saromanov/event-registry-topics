@@ -1,0 +1,62 @@
+{# This simple template derives from ``base.html``. See ``base.html`` for
+   more information about template inheritance. #}
+{%- extends "base.html" %}
+
+{# Loads some of the macros included with Flask-Bootstrap. We are using the
+   utils module here to automatically render Flask's flashed messages in a
+   bootstrap friendly manner #}
+{% import "bootstrap/utils.html" as utils %}
+
+
+{# Inside the ``content`` is where you should place most of your own stuff.
+   This will keep scripts at the page end and a navbar you add on later
+   intact. #}
+{% block content %}
+  <div class="container">
+
+  {% from "_formhelpers.html" import render_field %}
+<form method=post>
+  <dl>
+    {{ render_field(form.concept) }}
+    {{ render_field(form.category) }}
+    {{ render_field(form.keywords) }}
+    {{ render_field(form.sorting)}}
+    {{ render_field(form.count)}}
+  </dl>
+  <p><input type=submit value=Searching>
+</form>
+
+
+  {%- with messages = get_flashed_messages(with_categories=True) %}
+  {%- if messages %}
+    <div class="row">
+      <div class="col-md-12">
+        {{utils.flashed_messages(messages)}}
+      </div>
+    </div>
+  {%- endif %}
+  {%- endwith %}
+   <h1> Topic: {{topic}} </h1>
+   <p> Total results: {{articles['total_results']}} </p>
+   <h2> Articles </h2>
+   {% for value in articles.articles %}
+        <a href={{value.url}}> {{value.title}} </a> <br>
+   {% endfor %}
+
+   <h2> Events </h2>
+   {% for event in events.events %}
+      TITLE: <b> {{event.title}} ({{event.total_article_count}})</b> <br>
+      TAGS:
+      {% for concept in event.concepts %}
+          <a href={{concept.uri}} > {{concept.label.eng}} </a>
+      {% endfor %}
+      <br>
+      CATEGORY:
+      {% for concept in event.categories %}
+          <a href={{concept.uri}} > {{concept.label}} </a>
+      {% endfor %}
+      <br>
+      <br>
+   {% endfor %}
+   </div>
+{%- endblock %}
